@@ -1,9 +1,9 @@
-package io.github.astrapi69.template.service;
+package io.github.astrapi69.charcrypt.service;
 
 import org.springframework.stereotype.Service;
 
-import io.github.astrapi69.template.jpa.entity.Templates;
-import io.github.astrapi69.template.jpa.repository.TemplatesRepository;
+import io.github.astrapi69.charcrypt.jpa.entity.Templates;
+import io.github.astrapi69.charcrypt.jpa.repository.TemplatesRepository;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;

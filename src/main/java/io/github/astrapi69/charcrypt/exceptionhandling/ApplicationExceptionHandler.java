@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.exceptionhandling;
+package io.github.astrapi69.charcrypt.exceptionhandling;
 
 import org.springframework.context.MessageSource;
 import org.springframework.web.bind.annotation.ControllerAdvice;

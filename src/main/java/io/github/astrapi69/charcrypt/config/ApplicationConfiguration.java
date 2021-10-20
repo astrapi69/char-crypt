@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.config;
+package io.github.astrapi69.charcrypt.config;
 
 import java.util.List;
 
@@ -30,10 +30,10 @@ import lombok.NonNull;
 import lombok.experimental.FieldDefaults;
 
 @Configuration
-@ComponentScan(basePackages = { "io.github.astrapi69.template",
-	"io.github.astrapi69.template.service", "io.github.astrapi69.template.jpa.entity" })
-@EntityScan(basePackages = { "io.github.astrapi69.template.jpa.entity" })
-@EnableJpaRepositories(basePackages = { "io.github.astrapi69.template.jpa.repository" })
+@ComponentScan(basePackages = { "io.github.astrapi69.charcrypt",
+    "io.github.astrapi69.charcrypt.service", "io.github.astrapi69.charcrypt.jpa.entity" })
+@EntityScan(basePackages = { "io.github.astrapi69.charcrypt.jpa.entity" })
+@EnableJpaRepositories(basePackages = { "io.github.astrapi69.charcrypt.jpa.repository" })
 @EnableTransactionManagement
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)

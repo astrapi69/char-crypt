@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.config;
+package io.github.astrapi69.charcrypt.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 

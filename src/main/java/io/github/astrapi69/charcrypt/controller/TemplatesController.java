@@ -1,10 +1,10 @@
-package io.github.astrapi69.template.controller;
+package io.github.astrapi69.charcrypt.controller;
 
-import io.github.astrapi69.template.config.ApplicationConfiguration;
-import io.github.astrapi69.template.jpa.entity.Templates;
-import io.github.astrapi69.template.mapper.TemplatesMapper;
-import io.github.astrapi69.template.service.TemplatesService;
-import io.github.astrapi69.template.viewmodel.Template;
+import io.github.astrapi69.charcrypt.config.ApplicationConfiguration;
+import io.github.astrapi69.charcrypt.jpa.entity.Templates;
+import io.github.astrapi69.charcrypt.mapper.TemplatesMapper;
+import io.github.astrapi69.charcrypt.service.TemplatesService;
+import io.github.astrapi69.charcrypt.viewmodel.Template;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;

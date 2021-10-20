@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.viewmodel;
+package io.github.astrapi69.charcrypt.viewmodel;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
 
-import java.time.LocalDateTime;
-import java.util.Set;
 import java.util.UUID;
 
 @Data

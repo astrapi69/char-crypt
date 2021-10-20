@@ -1,2 +1,2 @@
-# spring-boot-template
-template project for start with spring-boot project
+# char-crypt
+crypt algorithm for character set keys

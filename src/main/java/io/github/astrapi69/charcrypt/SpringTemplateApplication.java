@@ -1,8 +1,8 @@
-package io.github.astrapi69.template;
+package io.github.astrapi69.charcrypt;
 
-import io.github.astrapi69.template.config.ApplicationConfiguration;
-import io.github.astrapi69.template.config.ApplicationProperties;
-import io.github.astrapi69.template.config.SwaggerConfiguration;
+import io.github.astrapi69.charcrypt.config.ApplicationConfiguration;
+import io.github.astrapi69.charcrypt.config.ApplicationProperties;
+import io.github.astrapi69.charcrypt.config.SwaggerConfiguration;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

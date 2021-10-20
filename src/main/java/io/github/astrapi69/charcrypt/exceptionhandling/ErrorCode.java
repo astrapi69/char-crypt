@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.exceptionhandling;
+package io.github.astrapi69.charcrypt.exceptionhandling;
 
 import lombok.AccessLevel;
 import lombok.Getter;

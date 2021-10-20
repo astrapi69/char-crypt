@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.config;
+package io.github.astrapi69.charcrypt.config;
 
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;

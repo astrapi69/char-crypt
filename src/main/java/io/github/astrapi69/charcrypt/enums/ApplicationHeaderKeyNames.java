@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.enums;
+package io.github.astrapi69.charcrypt.enums;
 
 public enum ApplicationHeaderKeyNames
 {

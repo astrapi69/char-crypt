@@ -1,4 +1,4 @@
-package io.github.astrapi69.template.jpa.entity;
+package io.github.astrapi69.charcrypt.jpa.entity;
 
 import java.util.UUID;
 
