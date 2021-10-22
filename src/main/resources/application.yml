@@ -1,5 +1,5 @@
 #
-name: spring-boot-template
+name: char-crypt
 environment: dev
 
 logging:
@@ -10,7 +10,7 @@ logging:
       SQL: DEBUG
       type.descriptor.sql: trace
   file:
-    name: ${HOME}/logs/spring-boot-template.log
+    name: ${HOME}/logs/char-crypt.log
 
 server:
   port: 5000
@@ -18,13 +18,13 @@ server:
 app:
   name: ${name}
   printing-mode-on: false
-  base-package: io.github.astrapi69.template
-  api-info-title: template REST API
-  api-info-description: REST API template description
-  contact-name: template inc.
-  contact-url: www.template.org
+  base-package: io.github.astrapi69.charcrypt
+  api-info-title: char-crypt REST API
+  api-info-description: REST API char-crypt description
+  contact-name: char-crypt inc.
+  contact-url: www.char-crypt.org
   dir: ${user.home}/.${app.name}
-  db-name: template
+  db-name: charcrypt
   db-host: localhost
   db-port: 5432
   db-username: postgres

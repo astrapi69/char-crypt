@@ -4,8 +4,8 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import io.github.astrapi69.charcrypt.jpa.entity.Templates;
+import io.github.astrapi69.charcrypt.jpa.entity.CharItems;
 
-public interface TemplatesRepository extends JpaRepository<Templates, UUID>
+public interface CharItemsRepository extends JpaRepository<CharItems, UUID>
 {
 }

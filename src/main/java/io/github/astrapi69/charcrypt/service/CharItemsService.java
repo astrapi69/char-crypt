@@ -2,8 +2,8 @@ package io.github.astrapi69.charcrypt.service;
 
 import org.springframework.stereotype.Service;
 
-import io.github.astrapi69.charcrypt.jpa.entity.Templates;
-import io.github.astrapi69.charcrypt.jpa.repository.TemplatesRepository;
+import io.github.astrapi69.charcrypt.jpa.entity.CharItems;
+import io.github.astrapi69.charcrypt.jpa.repository.CharItemsRepository;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
@@ -11,13 +11,13 @@ import lombok.experimental.FieldDefaults;
 @Service
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
-public class TemplatesService
+public class CharItemsService
 {
-	TemplatesRepository repository;
+	CharItemsRepository repository;
 
-	public Templates save(Templates templates)
+	public CharItems save(CharItems charItems)
 	{
-		return repository.save(templates);
+		return repository.save(charItems);
 	}
 
 }
