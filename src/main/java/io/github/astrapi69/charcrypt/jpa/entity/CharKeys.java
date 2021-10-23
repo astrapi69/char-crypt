@@ -24,11 +24,9 @@ import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
-@Entity @Table(name = Keys.TABLE_NAME)
+@Entity @Table(name = CharKeys.TABLE_NAME)
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
 @SuperBuilder @FieldDefaults(level = AccessLevel.PRIVATE)
 @TypeDefs({
@@ -37,10 +35,10 @@ import java.util.Set;
 		typeClass = IntArrayType.class
 	)
 })
-public class Keys
+public class CharKeys
 	extends VersionableUUIDEntity
 {
-	static final String SINGULAR_ENTITY_NAME = "key";
+	static final String SINGULAR_ENTITY_NAME = "char_key";
 	static final String TABLE_NAME = SINGULAR_ENTITY_NAME + "s";
 
 	/**
